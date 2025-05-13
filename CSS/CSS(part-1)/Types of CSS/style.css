@@ -1,0 +1,47 @@
+h2{
+    color: aqua;
+    background-color: blueviolet;
+    font-style: italic;
+    
+}
+
+h3{
+    color: aquamarine;
+    background-color: brown;
+    font-weight: 600;
+}
+
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5{
+    background-color: rgb(80, 80, 115);
+}
+
+h6{
+    color: blue;
+    font-weight: 800;
+    font-family: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    color: rgb(26, 46, 46);
+    background-color: aqua;
+    border-style:double;
+    border-radius: 10px;
+    border-color: rgb(207, 9, 9);
+}
+
+span{
+    color:white;
+    background-color: orangered;
+    font-family: 'Times New Roman', 
+    Times, serif;
+    font-size: small;
+    font-style: oblique;
+}

@@ -1,0 +1,31 @@
+/* h2{
+    display: inline;
+    background-color: pink;
+}
+span{
+    display: block;
+    border: 2px solid black;
+    height: 100px;
+    width: 70px;
+    padding:20px;
+    background-color: yellowgreen;
+} 
+div{
+    display: inline;
+    width: 100px;
+    height: 500px;
+    padding: 100px;
+    margin: 700px;
+} */
+
+/*----------Block and Inline--- */
+div{
+    height:200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    display: inline-block;
+}
+#third{
+    display: none;
+}

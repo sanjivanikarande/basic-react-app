@@ -1,0 +1,9 @@
+.product{
+    border: 5px solid rgb(79, 161, 79);
+    border-radius: 14px;
+    margin-bottom: 15px;
+    /* padding: 0 10px 0 10px; */
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+}

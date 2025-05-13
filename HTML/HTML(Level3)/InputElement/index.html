@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Elements</title>
+</head>
+<body>
+    <!-- Checkbox -->
+    <form action="/action">
+    <input type="checkbox" name="age" id="age">
+    <label for="age">I am 18+</label>
+
+<br>
+    <!-- Radio Button -->
+    Choose Your Subject:-
+    <input type="radio" name="sub" id="maths" value="maths">
+    <label for="maths">Maths</label>
+
+    <input type="radio" name="sub" id="sci" value="sci" >
+    <label for="sci">Science</label>
+
+    <input type="radio" name="sub" id="eng" value="eng">
+    <label for="eng">English</label>
+
+<br>
+    <!-- Dropdown -->
+    Choose Your Profession:-
+    <select name="profession" id="profession">
+        <option value="student">Student</option>
+        <option value="dev">Developer</option>
+    </select>
+
+    <!-- Range -->
+    <label for="vol">Volume</label>
+    <input type="range" id="vol" min="0" max="100" name="vol" step="10" value="70">
+<br>
+    <!-- TextArea -->
+    <label for="feedback">Feedback:-</label>
+    <br>
+    <textarea id="feedback" name="feedback" rows="5" cols="10"></textarea>
+<br>
+    <button>Submit</button>
+    </form>
+</body>
+</html>
