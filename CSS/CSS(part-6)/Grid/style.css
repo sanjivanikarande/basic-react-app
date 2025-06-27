@@ -20,16 +20,15 @@
     background-color: greenyellow;
     border: 2px solid black;
     /* text-align: center; */
-    place-self: start;
 }
 .one{
     /* grid-column-start: 1;
     grid-column-end: 4; */
     /* grid-column: 1 / 4; */
     /* grid-column: 1 / span 3; */
-    justify-self: end;
-    align-self: self-end;
-
+    /* justify-self: end;
+    align-self: self-end; */
+    place-self: start;
 }
 .three{
     /* grid-row-start: 1;
